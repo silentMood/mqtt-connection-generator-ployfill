@@ -1,0 +1,32 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "es6 generator polyfill for mqtt-connection",
+  "main": "index.js",
+  "dependencies": {
+    "co": "^4.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "mqtt-connection": "^2.1.1",
+    "sinon": "^1.17.3",
+    "sinon-chai": "^2.8.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silentMood/mqtt-connection-generator-ployfill.git"
+  },
+  "keywords": [
+    "mqtt"
+  ],
+  "author": "silentMood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silentMood/mqtt-connection-generator-ployfill/issues"
+  },
+  "homepage": "https://github.com/silentMood/mqtt-connection-generator-ployfill#readme"
+}
