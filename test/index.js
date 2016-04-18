@@ -37,11 +37,16 @@ describe('connect the mqtt-connection and the co', () => {
     	a = yield getPromise(1)
     	b = yield getPromise(2)
     	c = yield getPromise(3)
-    }, () => {
+
+      return a + b + c
+    }, (data) => {
+
     	//done
     	a.should.equal(1)
     	b.should.equal(2)
     	c.should.equal(3)
+
+      data.should.equal(6)
 
     	done()
     })
