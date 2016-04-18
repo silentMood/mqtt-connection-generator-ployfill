@@ -1,6 +1,6 @@
 'use strict'
 
-//you should import this before you import mqtt
+//you should import this before you import mqtt or mosca
 let mqttConnection = require('mqtt-connection')
 let co = require('co')
 
