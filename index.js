@@ -18,7 +18,7 @@ function isGeneratorFunction(obj) {
 mqttConnection.prototype.onx = function (ev, gen, onDone, onError) {
   if(!gen || !(isGeneratorFunction(gen) || isGenerator(gen))) {
     if (!!onError && typeof onError === 'function') {
-      onError(new Error('onx function should accept generator function'))
+      onError(new Error('onx function should only accept Generator or GeneratorFunction'))
     }
     return
   }
