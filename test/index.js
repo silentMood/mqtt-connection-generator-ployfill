@@ -5,7 +5,6 @@ let chai = require('chai')
 chai.should()
 let sinon = require('sinon')
 let sinonChai = require('sinon-chai')
-chai.should()
 chai.use(sinonChai)
 
 //module deps
